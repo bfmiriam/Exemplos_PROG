@@ -4,12 +4,13 @@ package exemploexcepcion;
 import javax.swing.JOptionPane;
 
 
-public class VariosCatch {
+public class ConFinally {
     
-    private int numerador;
+    
+     private int numerador;
     private int denominador;
 
-    public VariosCatch() {
+    public ConFinally() {
 
     }
 
@@ -30,6 +31,10 @@ public class VariosCatch {
             System.out.println("erro 2"+e2.toString());
             //no es un numero
         }
+        finally{
+            System.out.println("Esta sentenza execútase sempre");
+        }
         
     }
+    
 }
